@@ -10,6 +10,9 @@
     font-family: ITCAvantGardeStd-MdCn;
     src:url(./ITCAvantGardeStd-MdCn.ttf);
 }
+#lineatitle {
+
+}
 .container {
     overflow-y: hidden;
     overflow-x: hidden;
@@ -49,17 +52,22 @@ body {
     padding: 0;
 }
 #jumbobanner {
+    margin-top: 40px;
     color: white;
 }
 #jumbobanner h1 {
     text-align: center;
-    font-size: 150px;
+    font-size: 500%;
     font-family: ITCAvantGardeStd-BoldCn;
 }
 #jumbobanner h2 {
     margin-top: 20px;
     text-align: center;
     font-family: ITCAvantGardeStd-XLtCnObl;
+}
+#jumbobanner img {
+    margin-left: 10%;
+    width: 80%;
 }
 #imghead {
     margin: 0;
@@ -100,7 +108,7 @@ body {
 }
 #cardi1 {
     
-    min-width: 540px;
+    min-width: 270px;
     /* border-radius: 30px; */
     color: white;
     border-bottom: 2px solid white;
@@ -117,7 +125,7 @@ body {
     border-bottom: 2px solid white;
     border-top: 2px solid white;
     border-right: 2px solid white;
-    min-width: 540px;
+    min-width: 270px;
     /* border-radius: 30px; */
     color: white;
     background-color: black;
